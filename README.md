@@ -3,7 +3,7 @@ Repository with PyTorch code for training RetinaNet w/ ResNet-50 backbone to ide
 
 ![alt text](https://github.com/ZackLoken/RetinaNet_WaterfowlDetection/blob/main/TestResults.png)  
 
-Sample predictions for four images in the test dataset. Each image pair shows the ground truth bounding boxes (left image) and the predicted bounding boxes (right image). Predictions have been post-processed using soft non-maximum suppression and filtered to remove any predictions with confidence scores below 0.5. For each detection, the model predicts the class, location, and confidence score. The model correctly identified two NSHO and one Hen (A); one GWTE, one MALL, two NOPI, and two Hen (B); one REDH, 12 RNDU, and 3 Hen (C); and five AMCO and one GADW (D).
+Sample predictions for four images in the test dataset. Each image pair shows the ground truth bounding boxes (left image) and the predicted bounding boxes (right image). For each detection, the model predicts the class, location, and confidence score. Predictions have been post-processed using soft non-maximum suppression and filtered to remove any predictions with confidence scores below 0.5. The model correctly identified two NSHO and one Hen (A); one GWTE, one MALL, two NOPI, and two Hen (B); one REDH, 12 RNDU, and 3 Hen (C); and five AMCO and one GADW (D).
 
 Repository Contents:
  
