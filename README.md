@@ -1,5 +1,5 @@
 # RetinaNet_WaterfowlDetection
-Repository with PyTorch code for training RetinaNet w/ ResNet-50 backbone to identify waterfowl in drone images and videos. 
+Repository with PyTorch code for training RetinaNet w/ ResNet-50 backbone to identify waterfowl in drone images and videos. Users can clone this repository, load the corresponding Conda environment from environment.yml, download the image and annotation data (link below), and then change the folder paths in RetinaNet_ResNet50_PyTorch_CustomDataset.ipynb or RetinaNet_ResNet50_PyTorch_CustomDataset.py to the directory where the data was downloaded. If using a GPU, CUDA Toolkit version 12.8 must be downloaded following the instructions here: (https://developer.nvidia.com/cuda-12-8-0-download-archive).
 
 ![alt text](https://github.com/ZackLoken/RetinaNet_WaterfowlDetection/blob/main/TestResults.png)  
 
