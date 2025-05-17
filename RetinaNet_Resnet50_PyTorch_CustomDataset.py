@@ -1214,7 +1214,6 @@ def create_coco_datasets(train_dataset, val_dataset, test_dataset):
             test_coco_ds = test_future.result()
         return train_coco_ds, val_coco_ds, test_coco_ds
 
-# def main(train_coco_ds, val_coco_ds, best_trial):
 def main(best_trial):
     set_seed(6666)
     print(best_trial.config)
@@ -1668,4 +1667,3 @@ for class_name, metrics in test_class_metrics.items():
     print(f"AP@[0.50:0.95] = {metrics['precision_50_95']:.4f}")
     print(f"AR@[0.50:0.95] = {metrics['recall_50_95']:.4f}") 
     print(f"F1@[0.50:0.95] = {calculate_f1_score(metrics['precision_50_95'], metrics['recall_50_95']):.4f}")
-    
